@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Player, Intensity, GameMode, CardType, GameState, CardContent, Difficulty } from './types';
-import { PlayerSetup } from './components/PlayerSetup';
+import { PlayerSetup } from './PlayerSetup';
 import { Wheel } from './Wheel';
 import { GameCard } from './GameCard';
 import { Settings } from './Settings';

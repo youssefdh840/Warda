@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Player, Intensity, GameMode, CardType, GameState, CardContent, Difficulty } from './types';
 import { PlayerSetup } from './components/PlayerSetup';
-import { Wheel } from './components/Wheel';
-import { GameCard } from './components/GameCard';
-import { Settings } from './components/Settings';
+import { Wheel } from './Wheel';
+import { GameCard } from './GameCard';
+import { Settings } from './Settings';
 import { FALLBACK_CARDS, CARD_STYLES, TRANSLATIONS } from './constants';
 
 const App: React.FC = () => {
